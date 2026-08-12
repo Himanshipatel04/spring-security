@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/")
     public String greet(HttpServletRequest request) {
-        return "Hello "+request.getSession().getId();
+        return "Hello Himi!  "+request.getSession().getId();
     }
 }
